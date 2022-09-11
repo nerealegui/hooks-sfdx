@@ -37,7 +37,9 @@
     ],
     "**/{aura,lwc}/**": [
       "eslint"
-    ]
+    ],
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   },
   "dependencies": {
     "git": "^0.1.5"
